@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("OneUI Widget Background Service")]
+[assembly: AssemblyTitle("Galaxy Widgets Background Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("OneUI Widget Background Service")]
+[assembly: AssemblyProduct("Galaxy Widgets Background Service")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("206c781f-b852-419f-91bc-36a2a5c5f83e")]
+[assembly: Guid("e1c43121-5b93-4559-9bcb-2770d5317e76")]
 
 // Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 //

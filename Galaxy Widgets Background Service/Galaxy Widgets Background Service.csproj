@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{206C781F-B852-419F-91BC-36A2A5C5F83E}</ProjectGuid>
+    <ProjectGuid>{E1C43121-5B93-4559-9BCB-2770D5317E76}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>oneui-desktop-widgets-service</RootNamespace>
-    <AssemblyName>oneui-desktop-widgets-service</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>Galaxy_Widgets_Background_Service</RootNamespace>
+    <AssemblyName>Galaxy Widgets Background Service</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -57,7 +56,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -83,9 +81,6 @@
     </PackageReference>
     <PackageReference Include="System.Text.Json">
       <Version>7.0.3</Version>
-    </PackageReference>
-    <PackageReference Include="WNPRedux-Adapter-Library">
-      <Version>2.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
